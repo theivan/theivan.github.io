@@ -2,7 +2,7 @@
 <html>
   <head>
   <meta charset="utf-8">
-  <title>  Ivan Odbratt</title>
+  <title>  Archive |  Ivan Odbratt</title>
   <meta name="description" content="Ivan Odbratt">
   <meta name="author" content="Ivan Odbratt">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,16 +19,26 @@
 </head>
   <body>
     <div class="wrapper">
-      <nav class="nav   ">
+      <nav class="nav white  fixed  ">
   <ul class="nav-primary">
   	<li><a href="/">Ivan Odbratt</a></li>
     <li>/</li>
     <li><a href="/about">About</a></li>
     <li>/</li>
-    <li><a href="/articles">Articles</a></li>
+    <li><a href="/archive">Archive</a></li>
   </ul>
 </nav>
-      <nav class="art-list">
+      <article class="art ">
+        <header class="art-header  white" style="background-image: url(/public/img/articles/clock.jpg) "> <!-- white -->
+          <div class="art-header-inner">
+            <time class="art-time"></time>
+            <h2 class="art-title">Archive</h2>
+            <p class="art-subtitle">All posts</p>
+          </div>
+        </header>
+        <div class="art-body">
+          <div class="art-body-inner">
+            <nav class="art-list no-padding">
   <ul class="art-list-body">
     
       <li class="art-list-item">
@@ -44,6 +54,9 @@
     
   </ul>
 </nav>
+          </div>
+        </div>
+      </article>
       <footer class="footer">
   <div class="back-to-top">
     <a href="">Back to top</a>
@@ -61,15 +74,3 @@
     </div>
   </body>
 </html>
-
-
-
-
-<!-- 
-- Setup git deploys
-- Fix about and article.html issue
-- Deploy live
-- Check live RSS feed
-- Tweet about this shit
-- Better load animations
- -->
