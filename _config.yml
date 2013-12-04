@@ -1,3 +1,5 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
+name: Ivan Odbratt
+description: Maybe later
+url: http://www.ivanodbratt.com
+permalink: /:title
+redirects: yes
