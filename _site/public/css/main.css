@@ -231,9 +231,9 @@ a:hover {
   width: 100%;
   background: #fff;
   z-index: 100;
-  -webkit-box-shadow: 0 -3px 3px rgba(0,0,0,.2);
-     -moz-box-shadow: 0 -3px 3px rgba(0,0,0,.2);
-          box-shadow: 0 -3px 3px rgba(0,0,0,.2);
+  -webkit-box-shadow: 0 -5px 5px -5px rgba(0,0,0,.2);
+     -moz-box-shadow: 0 -5px 5px -5px rgba(0,0,0,.2);
+          box-shadow: 0 -5px 5px -5px rgba(0,0,0,.2);
 }
 .art-body-inner {
   max-width: 640px;
