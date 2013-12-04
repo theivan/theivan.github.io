@@ -33,7 +33,7 @@ html, body {
 }
 body {
   overflow-x: hidden;
-  font: 17px/28px ff-meta-serif-web-pro, "Georgia", serif;
+  font: 17px/28px "Tinos", "Georgia", serif;
   color: #333;
   background: #e4e4e4;
 }
@@ -42,7 +42,7 @@ body {
 /* Typography
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif;
+  font-family: "Montserrat", "helvetica neue", "helvetica", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   font-weight: 700;
@@ -134,7 +134,7 @@ a:hover {
 #logo h1,
 .nav-primary li,
 .nav-primary li a {
-  font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif;
+  font-family: "Montserrat", "helvetica neue", "helvetica", sans-serif;
   font-weight: 700;
   font-size: 13px;
   line-height: 30px;
@@ -297,7 +297,7 @@ a:hover {
   margin-bottom: 10px;
 }
 .art-list-time {
-  font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif;
+  font-family: "Montserrat", "helvetica neue", "helvetica", sans-serif;
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 2px;
@@ -329,7 +329,7 @@ a:hover {
 }
 .footer,
 .footer a {
-  font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif;
+  font-family: "Montserrat", "helvetica neue", "helvetica", sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   color: #777;
