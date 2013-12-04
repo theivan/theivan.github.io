@@ -208,6 +208,11 @@ a:hover {
   top: 320px;
 }
 
+.big{
+  font-size: 35px;
+  font-weight: 300;
+  margin: 0;
+}
 /* Body */
 .art-body {
   position: relative;
