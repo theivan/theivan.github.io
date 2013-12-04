@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Archive
-subtitle: All posts
+subtitle: All posts, articles and writings
 header-image: clock.jpg
 ---
 <nav class="art-list no-padding">
@@ -14,7 +14,7 @@ header-image: clock.jpg
           </h2>
           <div class="art-list-time">{{ post.date | date: "%B %d, %Y" }}</div>
         </div>
-        <p>{{ post.summary }}</p>
+        <p><em>"{{ post.summary }}"</em></p>
         </a>
       </li>
     {% endfor %}
