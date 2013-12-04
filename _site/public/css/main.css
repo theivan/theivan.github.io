@@ -227,7 +227,7 @@ a:hover {
   margin-bottom: 26px;
 }
 .art-body-inner ul li {
-  list-style: disc;
+  list-style: none;
 }
 .dropcap { /* First character on articles */
   float: left;
@@ -291,6 +291,11 @@ a:hover {
   line-height: 26px;
   font-weight: 700;
 }
+.art-list-title2 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
 .art-list-item-title-and-time {
   float: left;
   width: 30%;
@@ -308,6 +313,12 @@ a:hover {
   color: #000;
 }
 .art-list-title a:hover {
+  color: #b20f1f;
+}
+.art-list-title2 a {
+  color: #000;
+}
+.art-list-title2 a:hover {
   color: #b20f1f;
 }
 .art-list-item p {
