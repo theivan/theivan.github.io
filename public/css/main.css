@@ -633,7 +633,6 @@ img.right {
 }
 
 .art-header-inner {
-  outline: 1px solid transparent;
   -webkit-animation: le-fade .5s 0 1 ease-out;
   -moz-animation: le-fade .5s 0 1 ease-out;
 }
@@ -642,7 +641,6 @@ img.right {
 .nav,
 .abt,
 .art-body {
-  outline: 1px solid transparent;
   -webkit-animation: le-fade .5s 0s 1 ease-out;
   -moz-animation: le-fade .5s 0s 1 ease-out;
 }
