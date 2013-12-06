@@ -1,4 +1,66 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/public/fonts/montserrat-regular-webfont.eot');
+    src: url('/public/fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/montserrat-regular-webfont.svg#Montserrat') format('svg'),
+         url('/public/fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('/public/fonts/montserrat-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/public/fonts/montserrat-bold-webfont.eot');
+    src: url('/public/fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/montserrat-bold-webfont.svg#Montserrat') format('svg'),
+         url('/public/fonts/montserrat-bold-webfont.woff') format('woff'),
+         url('/public/fonts/montserrat-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Tinos';
+    src: url('/public/fonts/tinos-regular-webfont.eot');
+    src: url('/public/fonts/tinos-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/tinos-regular-webfont.svg#Tinos') format('svg'),    
+         url('/public/fonts/tinos-regular-webfont.woff') format('woff'),
+         url('/public/fonts/tinos-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Tinos';
+    src: url('/public/fonts/tinos-italic-webfont.eot');
+    src: url('/public/fonts/tinos-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/tinos-italic-webfont.svg#Tinos') format('svg'),
+         url('/public/fonts/tinos-italic-webfont.woff') format('woff'),
+         url('/public/fonts/tinos-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Tinos';
+    src: url('/public/fonts/tinos-bold-webfont.eot');
+    src: url('/public/fonts/tinos-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/tinos-bold-webfont.svg#Tinos') format('svg'),
+         url('/public/fonts/tinos-bold-webfont.woff') format('woff'),
+         url('/public/fonts/tinos-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Tinos';
+    src: url('/public/fonts/tinos-bolditalic-webfont.eot');
+    src: url('/public/fonts/tinos-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/fonts/tinos-bolditalic-webfont.svg#Tinos') format('svg'),
+         url('/public/fonts/tinos-bolditalic-webfont.woff') format('woff'),
+         url('/public/fonts/tinos-bolditalic-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
 
 /* Reset & Basics (Inspired by E. Meyers)
 ================================================== */
@@ -14,8 +76,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, time,
 html, body, .wrapper {
   min-height: 100%;
 }
-
-
 /* Body
 ================================================== */
 html, body {
