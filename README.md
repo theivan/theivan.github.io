@@ -1,0 +1,1 @@
+New site built with wheat and skeleton

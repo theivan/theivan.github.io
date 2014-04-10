@@ -1,6 +1,17 @@
-name: Ivan Odbratt
-description: Occasional blogger, traveller and worker.
-url: http://www.ivanodbratt.com
-permalink: /:title
-redirects: yes
-markdown: kramdown
+name: Wheat
+markdown: redcarpet
+pygments: true
+
+include:
+- .htaccess
+
+exclude:
+- README.md
+- Rakefile
+- _site
+- .sass-cache
+
+keep_files:
+- .git
+
+permalink: /writing/:title

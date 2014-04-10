@@ -1,0 +1,20 @@
+//
+// Base project declarations
+//
+
+* {
+  @include flex;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: $base-type;
+  text-align: left;
+  padding: 20px;
+  color: $color-black;
+}
