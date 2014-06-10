@@ -1,17 +1,11 @@
-name: Wheat
-markdown: redcarpet
-pygments: true
+# Site settings
+title: This is the home of Ivan Odbratt and my random ramblings. I'm a copywriter and editor. Based in Stockholm.
+email: hello@ivanodbratt.com
+description: "Random ramblings of unconstructed thoughts."
+baseurl: ""
+url: "http://ivanodbratt.com"
 
-include:
-- .htaccess
-
-exclude:
-- README.md
-- Rakefile
-- _site
-- .sass-cache
-
-keep_files:
-- .git
-
-permalink: /writing/:title
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 5
