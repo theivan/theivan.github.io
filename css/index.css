@@ -1,5 +1,5 @@
 html { 
-  background: url(yXXwRlv.gif) no-repeat center center fixed; 
+  background: url(HYK7xHF.gif) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,11 +12,9 @@ body {
 }
 
 h1 {
+  color: white;
     font-family: 'Vollkorn';
     font-size: 5.8em;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
-    filter: alpha(opacity=20);
-    opacity: 0.2;
     position: fixed;
   top: 50%;
   left: 50%;
