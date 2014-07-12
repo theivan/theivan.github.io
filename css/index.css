@@ -1,11 +1,4 @@
-html { 
-  background: url(HYK7xHF.gif) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-}
+
 body {
     height: 100%;
    overflow: hidden;
@@ -21,3 +14,14 @@ h1 {
   margin-top: -20px;
   margin-left: -270px;
 }
+#container{
+position: fixed; 
+right: 0; 
+top: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto; 
+z-index: -100;
+background-size: cover;
+            }
