@@ -6,13 +6,23 @@ body {
 
 h1 {
   color: white;
-    font-family: 'Vollkorn';
+    font-family: 'Lato';
+    font-size: 5.8em;
+    position: fixed;
+  top: 40%;
+  left: 41%;
+  margin-top: -20px;
+  margin-left: -200px;
+}
+h2 {
+  color: white;
+    font-family: 'Lato';
     font-size: 5.8em;
     position: fixed;
   top: 50%;
-  left: 50%;
+  left: 40%;
   margin-top: -20px;
-  margin-left: -270px;
+  margin-left: -200px;
 }
 #container{
 position: fixed; 
